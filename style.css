@@ -1,20 +1,28 @@
-body{
-    background-image: url('https://i.imgur.com/3h2weQh.jpg');
-    background-repeat: no-repeat;
+@media only screen and (max-width: 600px){
+.container{
+    background-color: rgba(0, 0, 0, 0.5); 
+    text-shadow: 0px black;
+}
+}
+
+.hero{
+    background-image: url('https://www.gregbottle.com/uploads/1/1/2/7/112717723/stag-at-dusk_orig.jpg');
+    background-position: center;
     background-size: cover;
-    position: relative;
 }
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    height: 50%;
-    width: 30%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 15%;
-}
-.hero-text{
+.container{
     text-align: center;
-    top: 50%;
-    left: 50%;
-    color: #E0E0E0;
+    margin-top: -35%;
+    text-shadow: 2px 2px 2px black;
 }
+.breadcrumb{
+    padding: 10px;
+}
+a{
+    color: ghostwhite !important;
+}
+a:hover{
+    text-decoration: overline !important;
+}
+
+
