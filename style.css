@@ -2,19 +2,99 @@
 .container{
     background-color: rgba(0, 0, 0, 0.5); 
     text-shadow: 0px black;
+    position: fixed;
+    top: -10px;
+
+}
+#bio, #contact, #projects, #resume{
+    margin-top: 75% !important;
+    height: 100px !important;
+    width: 300px !important;
+    margin-left: 30px !important;
+    margin-bottom: 20%;
+}
+
+p{
+    font-size: 10px;
+}
+h1{
+    font-size: 15px;
+}
+h2{
+    font-size: 12px;
 }
 }
 
 .hero{
-    background-image: url('https://www.gregbottle.com/uploads/1/1/2/7/112717723/stag-at-dusk_orig.jpg');
+    background-image: url('https://i.imgur.com/fHTE0OA.jpg');
     background-position: center;
     background-size: cover;
 }
 .container{
+    position: fixed;
+    top: 5%;
     text-align: center;
-    margin-top: -35%;
     text-shadow: 2px 2px 2px black;
 }
+.title{
+    margin-top: 10px;
+}
+.subtitle{
+    width: 50%;
+    text-align: center;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+}
+#bio, #contact, #projects, #resume{
+    width: 50%;
+    height: 450px;
+    top: 18%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    overflow-y: scroll;
+    min-height: 200px;
+}
+
+/* #contact{
+    width: 50%;
+    height: 450px;
+    top: 18%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    overflow-y: scroll;
+    min-height: 200px;
+}
+
+#projects{
+    width: 50%;
+    height: 450px;
+    top: 18%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    overflow-y: scroll;
+    min-height: 200px;
+}
+
+#resume{
+    width: 50%;
+    height: 450px;
+    top: 18%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    overflow-y: scroll;
+    min-height: 200px;
+}  */
+
 .breadcrumb{
     padding: 10px;
 }
@@ -22,7 +102,13 @@ a{
     color: ghostwhite !important;
 }
 a:hover{
-    text-decoration: overline !important;
+    text-decoration: black line-through!important;
 }
-
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
 

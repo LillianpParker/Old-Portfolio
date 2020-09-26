@@ -20,16 +20,69 @@
             </h2>
           </div>
         </div>
+        <div id="bio">
+            <h1>Biography</h1>
+            <p>Lillian Parker, a zookeeper turned Software Engineer graduated from West Texas A&M University with a Bachelors of Science in Wildlife Biology. With a degree and a passion for herpetofauna by her side, she began working at at an Aquarium in the reptile department, and rose through the ranks quickly until she was promoted to a Lead. From there she and her team revolutionized the department and all the herpetofauna within their care.</p>
+            <p>Wanting to increase her knowledge of husbandry for a variety of taxa, Lillian moved up to North Dakota to become part of the Dakota Zoo and helped the team there care for the variety of animals within the Dakota Zoo that included felids, canids, ursids, and a variety of exotic hoofstock.</p>
+            <p>With the pandemic having altered the world of husbandry, Lillian knew it was time to move into a more stable career, and it was a sudden realization one day while working on a personal project involving HTML and CSS that should could make a career out of it, and enjoy her job too. It wasn't long until she found General Assembly's Software Engineering Immersive Program and signed up, was accepted, and within three months and under the excellent guidance of her instructors, had developed into a junior engineer.</p>
+        </div>
+        <div id="contact">
+            <h1>Contact Information</h1>
+            <a href="mailto:Lillianpparker@outlook.com">Email Address</a>
+            <p>The best and most efficient method for contacting Lillian Parker is either through LinkedIn or through emailing using the email above. She usually contacts back immeaditely, but it can take as long as 24 hours.</p>
+            <p>Residence: Austin, TX</p>
+        </div>
+        <div id="projects">
+            <h1>Bowerbird Simulator</h1>
+            <p>My first project during my Software Engineering Immersive course that used HTML, CSS, Javascript, and jQuery. Some screen shots are more zoomed out than others so everything on the page can be seen in a single shot</p>
+            <img class="pro-img" src="https://i.imgur.com/BPvy59C.png">
+            <img class="pro-img" src="https://i.imgur.com/rp7oFdO.png">
+            <img class="pro-img" src="https://i.imgur.com/mJdpQy6.png">
+            <img class="pro-img" src="https://i.imgur.com/MJFVdV4.png">
+            <img class="pro-img" src="https://i.imgur.com/IwLGOJV.png">
+            <img class="pro-img" src="https://i.imgur.com/wj0nuwA.png">
+            <a href="https://lillianpparker.github.io/Bowerbird-Simulator/index.html" target="_blank">Play Bowerbird Simulator here!</a>
+            <hr>
+            <h1>HerpKeeper</h1>
+            <p>My second project during my Immersive Course. By using Node, Mongoose, Express, and JSX, I was able to create a fully functioning fullstack application that one could add, delete, edit, and view records of the herpetofauna in their collection. I also included information about my idea behind the site, information about myself, resources herp-keepers could use to enrich their exhibits or specimiens lives, and a livestream of the St. Augestine Alligator Farm in Augestine, FL.</p>
+            <img class="pro-img" src="https://i.imgur.com/f2wZRB9.jpg">
+            <img class="pro-img" src="https://i.imgur.com/pN799qw.jpg">
+            <a href="https://herp-keeper.herokuapp.com/" target="_blank">Check out HerpKeeper for yourself here!</a>
+            <hr>
+            <h1>The Hissery</h1>
+            <p>The Hissery was a group effort that was the third project during my immersive and the technologies in it range from React, Node, Express, and Mongoose. With my focus on front end, and my two other team members focused on backend, we knocked it out of the park. Unlike HerpKeeper, The Hissery comes complete with authentication, contact buttons, and a clean and brilliantly bright display (I do love that photo). Currently the project is not live, as my peer had taken it down from Heroku, but I will be making it live very soon, so until then the Github Repo is posted below.</p>
+            <img class="pro-img" src="https://i.imgur.com/m1ZEFJM.jpg">
+            <img class="pro-img" src="https://i.imgur.com/fymAjuT.jpg">
+            <img class="pro-img" src="https://i.imgur.com/oXgELIe.jpg">
+            <img class="pro-img" src="https://i.imgur.com/8VyP1fU.jpg">
+            <img class="pro-img" src="https://i.imgur.com/4sxOvLj.jpg">
+            <a href="https://github.com/graveslug/snake_shop_frontend" target="_blank">Here's The Frontend Repo!</a>
+            <a href="https://github.com/graveslug/snake_shop_backend" target="_blank">Here's The Backend Repo!</a>
+            <hr>
+            <h1>Book-In-It</h1>
+            <p>While this 4th project may look small and sad, this was done in 24 hours using entirely rails and react, along with deploying to heroku. It was a process, that was intense but meaningful and I learned a lot in that single day. While there are definitely some major kinks (e.g when submitting a new book, you have to refresh the page to see it) overall, I'm still proud of my ability to perform under that small of a time restraint</p>
+            <img class="pro-img" src="https://i.imgur.com/bqKH6i2.png">
+            <a href="https://book-in-it.herokuapp.com/" target="_blank">Put a Book-In-It here!</a>
+            <h1>Fauna Favor: Endangered Species Edition</h1>
+            <p>More information to come-- sshh, it's a secret and still in production ;) </p>
+            <a href="#" target="_blank">You silly goose, it's not ready yet</a>
+        </div>
+        <div id="resume">
+            <h1>Resume</h1>
+        </div>
         <nav class="breadcrumb is-medium has-bullet-separator" aria-label="breadcrumbs">
             <ul>
-              <li><a href="#">Biography</a></li>
-              
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Resume</a></li>
-              <li><a href="https://www.linkedin.com/in/lillianpparker/">LinkedIn</a></li>
-              <li><a href="https://github.com/LillianpParker">Github</a></li>
+              <li><a onclick="bio()">Biography</a></li>
+              <li><a onclick="contact()">Contact</a></li>
+              <li><a onclick="projects()">Projects</a></li>
+              <li><a onclick="resume()">Resume</a></li>
+              <li><a href="https://www.linkedin.com/in/lillianpparker/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://github.com/LillianpParker" target="_blank">Github</a></li>
             </ul>
           </nav>
     </section>
+    <div>
+        <script src="app.js"></script>
+    </div>
 </body>
 </html>
