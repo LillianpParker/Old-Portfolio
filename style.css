@@ -6,7 +6,7 @@
     top: -10px;
 
 }
-#bio, #contact, #projects, #resume{
+#bio, #projects, #resume{
     margin-top: 75% !important;
     height: 100px !important;
     width: 300px !important;
@@ -47,7 +47,7 @@ h2{
     margin-right: auto;
     font-size: 22px;
 }
-#bio, #contact, #projects, #resume{
+#bio, #projects, #resume{
     width: 50%;
     height: 450px;
     top: 18%;
@@ -58,42 +58,6 @@ h2{
     overflow-y: scroll;
     min-height: 200px;
 }
-
-/* #contact{
-    width: 50%;
-    height: 450px;
-    top: 18%;
-    background-color: rgba(0, 0, 0, 0.7); 
-    padding: 15px;
-    margin-left: 10px;
-    margin-bottom: 40px;
-    overflow-y: scroll;
-    min-height: 200px;
-}
-
-#projects{
-    width: 50%;
-    height: 450px;
-    top: 18%;
-    background-color: rgba(0, 0, 0, 0.7); 
-    padding: 15px;
-    margin-left: 10px;
-    margin-bottom: 40px;
-    overflow-y: scroll;
-    min-height: 200px;
-}
-
-#resume{
-    width: 50%;
-    height: 450px;
-    top: 18%;
-    background-color: rgba(0, 0, 0, 0.7); 
-    padding: 15px;
-    margin-left: 10px;
-    margin-bottom: 40px;
-    overflow-y: scroll;
-    min-height: 200px;
-}  */
 
 .breadcrumb{
     padding: 10px;
@@ -103,6 +67,9 @@ a{
 }
 a:hover{
     text-decoration: black line-through!important;
+}
+.link{
+    font-size: 22px;
 }
 p{
     font-size: 20px;
